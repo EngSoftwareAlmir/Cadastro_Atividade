@@ -11,4 +11,5 @@ Para rodar o projeto, você utiliza o segunte comando:
 
 ```bash
 npm run server
+npm run start
 ```
