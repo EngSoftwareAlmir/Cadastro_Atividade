@@ -1,0 +1,22 @@
+{
+  "name": "cadastro_atividade",
+  "version": "1.0.0",
+  "description": "Programa para registro e auxilio no gerenciamento de estudos.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "server": "node server.js"
+  },
+  "author": "Almir de Lima Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.1",
+    "nodemon": "^3.0.3"
+  }
+}
