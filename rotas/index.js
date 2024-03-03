@@ -1,12 +1,12 @@
 const express = require('express');
+const atividades = require('./atividadesRotas.js');
 
 const router = express.Router();
 
-router.get('/', (req, res)=>{
-    res.render('index');
-});
+
 
 module.exports = app =>{
-    app.use('/', router);
+    app.use(express.json());
+    app.use(atividades);
 }
 
