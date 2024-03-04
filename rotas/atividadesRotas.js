@@ -5,5 +5,5 @@ const router = Router();
 
 //rotas
 router.get('/', AtividadesControlador.listarAtividades);
-
+router.get('/atividades/:id', AtividadesControlador.selecionarAtividadePorId);
 module.exports = router;
