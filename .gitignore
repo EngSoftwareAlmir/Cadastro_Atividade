@@ -1,3 +1,5 @@
 artefatos/
 node_modules/
+routes.http
+routes2.http
 .env
