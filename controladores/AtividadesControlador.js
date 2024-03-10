@@ -91,8 +91,7 @@ class AtividadesControlador{
 
     //deletar uma atividade
     static async deletarAtividade(req, res){
-        const idAtividade = req.params.id;
-        console.log(idAtividade);
+        const idAtividade = req.params.id;        
         try{
             const conn = await connect();
             const retorno = await conn.query("DELETE FROM atividades WHERE id_atividade = ?;",
