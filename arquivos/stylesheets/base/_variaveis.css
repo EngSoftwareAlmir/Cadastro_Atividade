@@ -1,0 +1,19 @@
+/*fonte e seus tamanhos */
+:root{
+    --fontePadrao: 'Cormorant Garamond', serif;              
+    --fonteTamanhoNormal: 18px;
+    --fonteTamanhoNormalResponsivo1: 12px;
+    --fonteTamanhoTitulo: 22px;
+    --fonteTamannhoTituloResponsivo1: 15px;
+    --fonteTamanhoDestaqueCabecalho: 48px;
+    --fonteTamanhoDestaqueCabecalhoResponsivo1: 36px;
+
+
+    /*cores do projeto*/
+    --amarelo: #FFD700;
+    --azul: #193872;
+    --azulNeutro: #6495ED;
+    --branco: #FFF;
+    --cinza: #C0C0C0;
+    --preto: #464646;
+}

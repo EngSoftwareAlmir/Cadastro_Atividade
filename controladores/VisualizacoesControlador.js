@@ -1,7 +1,7 @@
 
 class VisualizacoesControlador{
     static exibirHome(req, res){
-        return res.status(200).end('Bem vindo à Home');
+        res.render('home',{});
     };
 
     static exibirPaginaPesquisarAtividade(req, res){

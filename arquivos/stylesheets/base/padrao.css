@@ -1,0 +1,33 @@
+@import url('./_reset.css');
+@import url('./_variaveis.css');
+
+.pagina{
+    background-color: var(--cinza);
+    color: var(--preto);
+    font-family: var(--fontePadrao);
+    font-size: var(--fonteTamanhoNormal);
+}
+
+.container{    
+    max-width: 1440px;
+    margin:0 auto;  
+    
+    position: relative; 
+}
+
+.subcontainer{    
+    padding: 8px 32px; 
+    width: 100%;
+}
+
+/*#####responsividade#####*/
+
+@media screen and (max-width: 720px){
+    .pagina{
+        font-size: var(--fonteTamanhoNormalResponsivo1);
+    }
+
+    .subcontainer{
+        padding: 6px 16px;
+    }
+}

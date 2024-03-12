@@ -4,7 +4,7 @@
 Este projeto tem como finalidade cadastrar os estudos realizados pelo usuário, com a finalidade de ajudá-lo a gerenciar sua rotina de estudos.
 
 ## Estado do Projeto
-> :construction: Inicialização :construction:
+> :construction: Criando a Interface :construction:
 
 ## Como Executar
 Para rodar o projeto, você utiliza o segunte comando:
