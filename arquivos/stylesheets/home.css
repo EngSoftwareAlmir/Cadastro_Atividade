@@ -1,1 +1,13 @@
 @import url('./componentes/_cabecalho.css'); /*componente cabecalho*/
+
+.pagina--home{    
+    height: 100vh;
+}
+
+.container--home{
+    background-image: url('../imagens/imagensDeFundo/estudos.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
