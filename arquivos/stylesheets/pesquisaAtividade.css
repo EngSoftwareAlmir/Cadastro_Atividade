@@ -1,0 +1,37 @@
+@import url('./componentes/_cabecalho.css'); /*componete cabecalho*/
+
+/*####tabela##### componente?*/
+.tabela{
+    margin: 0 auto;
+}
+
+.tabela__cabecalho{
+    background-color: var(--azulNeutro);
+    color: var(--branco);
+    font-weight: bolder;   
+}
+
+.tabela__corpo{
+    background-color: var(--branco);
+    font-size: var(--fonteTamanhoReduzido);
+}
+
+.tabela__celula--normal{
+    width: 180px;
+}
+
+.tabela__celula--aumentada{
+    width: 240px;
+}
+
+.tabela__celula--personalizadaId{
+    width: 90px;
+}
+
+.tabela__celula--personalizadaData{
+    width: 62px;
+}
+
+.tabela__celula--personalizadaAcao{
+    width: 90px;
+}

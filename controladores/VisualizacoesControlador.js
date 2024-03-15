@@ -5,7 +5,7 @@ class VisualizacoesControlador{
     };
 
     static exibirPaginaPesquisarAtividade(req, res){
-        return res.status(200).end('Página de Pesquisar Atividade')
+       res.render('pesquisaAtividade',{});
     }
 
     static exibirPaginaCriarAtividade(req, res){
